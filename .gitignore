@@ -1,0 +1,24 @@
+node_modules
+.DS_Store*
+.hubot_history
+### https://raw.github.com/github/gitignore/2544a6b71027a1832e01f5c7f78bdfcea727f4ec/node.gitignore
+
+lib-cov
+lcov.info
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+build
+.grunt
+
+node_modules
+
+
