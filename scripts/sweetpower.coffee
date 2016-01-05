@@ -11,7 +11,7 @@ module.exports = (robot) ->
         li = $ @
         name = li.find('img').attr('alt')
         link = li.find('a').attr('href')
-        x = name + ' ' + li.text() + ' ' + (root_url + link)
+        x = name + ': ' + li.text() + '\n    ' + (root_url + link)
         list.push(x)
 
       msg.send list.join '\n'
