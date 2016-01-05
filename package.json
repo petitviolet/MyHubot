@@ -5,6 +5,8 @@
   "author": "petitviolet <violethero0820@gmail.com>",
   "description": "my own robot",
   "dependencies": {
+    "cheerio": "^0.19.0",
+    "eastasianwidth": "^0.1.1",
     "hubot": "^2.17.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.4",
@@ -18,7 +20,7 @@
     "hubot-scripts": "^2.16.2",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^3.4.2",
-    "eastasianwidth": "^0.1.1"
+    "request": "^2.67.0"
   },
   "engines": {
     "node": "0.10.x"
